@@ -1,3 +1,14 @@
-h1 {
-	color: green;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#wrapper {
+	height: auto;
+	width: auto;
+}
+#nav {
+	width: auto;
+	max-height: 100px;
+	min-height: 50px;
+	border: 1px solid #000;
 }

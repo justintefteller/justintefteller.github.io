@@ -8,16 +8,70 @@
 </head>
 <body>
 	<div id="wrapper">
-		<nav id="nav"></nav>
+		<nav id="nav">
+			<input type="text" id=search list="suggestions" placeholder="Layouts">
+			<datalist id="suggestions">
+				<option value="About Me"></option>
+				<option value="Layouts"></option>
+				<option value="Api Integrations"></option>
+				<option value="Fun & Games"></option>
+			</datalist>
+			<img src="root/Hamburger_icon.svg" alt="Main Menu">
+		</nav>
 		<section>
-			<div id=attention-getter></div>
-			<div id=attention-image></div>
+			<div id=attention-getter>
+				<h1>Welcome to my website!</h1>
+				<p>This website is still under construction. Please check back later.</p>
+			</div>
+			<div id=attention-image>
+				<img src="root/DreamBoat.jpg" alt="Photo of Me" id="me">
+			</div>
 		</section>
 		<section id=companies>
-
+			<div>
+				Companies I've worked with
+			</div>
+			<div class="company_grid">
+				<div class="company">
+					<img src="root/company_logos/company_1.png" alt="Cetec ERP">
+				</div>
+				<div class="company">
+					<img src="root/company_logos/company_2.png" alt="BMW">
+				</div>
+				<div class="company">
+					<img src="root/company_logos/company_3.png" alt="Life Time">
+				</div>
+				<div class="company">
+					<img src="root/company_logos/company_4.png" alt="Arvest">
+				</div>
+			</div>
 		</section>
 		<section>
-
+			<div id="skills">
+				<div>
+					<h1>Skills</h1>
+					<p>I'm a full stack web developer with a passion for creating interesting and intuitive user experiences. I have experience with HTML, CSS, JavaScript, Go, Perl, Python, and MySQL.</p>
+					<p>The following are some of the skills I've acquired over the years:</p>
+				</div>
+				<div class="skill_grid">
+					<div class="skill">
+						<img src="root/skills/html.png" alt="Full Stack Web Development">
+						<p>Full Stack Web Development</p>
+					</div>
+					<div class="skill">
+						<img src="root/skills/css.png" alt="Sales">
+						<p>Sales</p>
+					</div>
+					<div class="skill">
+						<img src="root/skills/js.png" alt="Management">
+						<p>Management</p>
+					</div>
+					<div class="skill">
+						<img src="root/skills/php.png" alt="Customer Service">
+						<p>Customer Service</p>
+					</div>
+				</div>
+			</div>
 		</section>
 	</div>
 </body>

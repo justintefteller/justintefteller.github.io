@@ -11,4 +11,12 @@
 	max-height: 100px;
 	min-height: 50px;
 	border: 1px solid #000;
+	margin: 0 10px;
+}
+#search {
+	/* display: none; */
+	border-radius: 1ch;
+	outline: none !important;
+	padding: 1ch;
+	margin: auto;
 }
